@@ -1,7 +1,7 @@
 import crypto from 'crypto';
-import Note from 'src/models/note';
-import Statistics from 'src/models/statistics';
-import { Category } from 'src/models/category';
+import Note from '../models/note';
+import Statistics from '../models/statistics';
+import { Category } from '../models/category';
 const SECRET = 'ANTONIO-REST-API';
 
 export const authentication = (salt: string, password: string): string => {
